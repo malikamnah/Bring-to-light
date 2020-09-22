@@ -17,29 +17,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Connect</a>
-                    </li>
-                </ul>
-            </div>
+            <img src="images/logo.png"/>
         </div>
        
     </nav>
@@ -55,21 +33,34 @@
             <div class="carousel-item active">
                 <img src="images/autumn.jpg" alt="background image">
                 <div class="carousel-caption">
-                    <h1 class="display-2">Counselling Services</h1>
-                    <h3>Via Skype and Phone</h3>
-                    <button type="button" class="btn btn-primary btn-lg">Book Appointment</button>
+                    <h1 id="font-size" class="display-2">Counselling Services</h1>
+                    <h3>Phone and Online</h3>
+                    <button type="button" class="btn btn-primary btn-lg"><a id="book" href="mailto:bringtolightcounselling@gmail.com">Book Appointment</a></button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/drink.jpg" alt="background2 image">
+                <div id="margin-top" class="carousel-caption">
+                    <h3 class="cursiv">"Out beyond the ideas of right-doing and wrong-doing, there is a field."</h3> 
+                        <h3 class="cursiv">"I'll meet you there."</h3> 
+                        <h3 class="cursiv">~Rumi</h3>
+                </div>
             </div>
             <div class="carousel-item">
                 <img src="images/background.jpg" alt="background3 image">
                 <div class="carousel-caption">
-                    <h3>"Once I became tired of fighting in the dark, I decided to bring myself to light. Once I saw everything lit up, I realized I had more choices than I would ever have seen in darkness."</h3>
+                    <h3 id="size">"Once I became tired of fighting in the dark, I decided to bring myself to light. Once I saw everything lit up, I realized I had more choices than I would ever have seen in darkness."</h3>
                 </div>
             </div>
         </div>
+        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
     </div>
     
 
@@ -77,10 +68,9 @@
     <div class="container-fluid">
         <div class="row jumbotron">
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                <p class="lead">Contact Amnah to book an appointment: malik.amnah@outlook.com. Call or text: 604-323-6749</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Book Appointment</button></a>
+                <p class="lead">Contact Amnah to book an appointment:</p> 
+                <a href="mailto:bringtolightcounselling@gmail.com">bringtolightcounselling@gmail.com</a><br>
+                <a href="tel:604-323-6749">604-323-6749</a>
             </div>
         </div>
     </div>
@@ -89,11 +79,11 @@
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
-                <h1 class="display-4">Calming your nerves</h1>
+                <h1 class="display-4">Your Healing Journey.</h1>
             </div>
             <hr>
             <div class="col-12">
-                <p class="lead">Welcome to my website. I am here to help and give counselling sessions.</p>
+                <p class="lead">Welcome to my website. I am here to support you through online or phone counselling sessions.</p>
             </div>
         </div>
     </div>
@@ -106,119 +96,58 @@
         <div class="row padding">
             <div class="col-lg-6">
                 <h2>About Amnah Malik</h1>
-                    <p>Coming from an Asian upbringing, raised in Sweden(21 years) and living over 10 years in Canada has given me a wonderful oppurtunity to learn about different cultures and meet people from all walks of life. By always offering a listening ear, I have learned to have a deep understanding and compassion for others. I have always had an urge to help people but didn't always know how to.</p>
-                    <p>When I faced challenges of my own I was, with help able to find solutions and learn many coping strategies that worked for me. That's when I decided to devote my time helping others find their solutions to the unique situation.</p>
-                    <p>I have completed my Diploma in "Professional counselling" from Vancouver College of Counselling training. I also volunteer my time, facilitating art therapy class. Currently, I am only offering individual online video counselling or over the phone counselling.</p>
-                    <p>If you would like to know more about me and services or would like a free 20 minute consultation, feel free to contact me.</p>
-                    <p>I am here to help.</p>
-                    <p>Warm regards</p>
+                    <p>Coming from an East Indian heritage, being raised in Sweden, living in Canada for over a decade has blessed me with the wonderful opportunity to experience different cultures and meet people from different walks of life.</p>
+                    <p>Naturally, I have listened to people sharing their stories with great interest and care. This has led me to build a deep understanding and compassion for the human experience that is unique to everyone.</p>
+                    <p>When faced with my own challenges in life I was, with the right support, guidance, self-education, able to find coping skills to see the light out of the darkness.</p>
+                    <p>I now want to devote my time helping others find their own unique paths.</p>
+                    <p>This is what has shaped my counselling practice.</p>
+                    <p>I want to welcome you in to this team effort experience between one human to another, not just a counsellor to client.</p>
+                    <p>Contact me to find out more or book an appointment.</p>
+                    <p>Warmest regards,</p>
+                    <p>Amnah</p>
                     <br>
-                    <a href="#" class="btn btn-primary">Contact Amnah</a>
+                    <a href="mailto:bringtolightcounselling@gmail.com" class="btn btn-primary">Contact Amnah</a>
             </div>
             <div class="col-lg-6">
-                <img src="images/amnah.jpg" alt="picture of woman in front of computer." class="img-fluid">
+                <img id="amnah" src="images/Amnah.JPG" alt="picture of woman in front of computer." class="img-fluid">
             </div>
         </div>
     </div>
     <hr class="my-4">
 
-<!--- Fixed background -->
-
-
-<!--- Emoji Section -->
-
-  
-    <!--- Meet the team -->
-
-    <!--- Cards -->
-    <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/team1.png" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title">Amnah Malik</h4>
-                        <p class="card-text">Amnah is a professional psychologist.</p>
-                        <a href="#" class="btn btn-outline-secondary">See profile</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/team2.png" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title">Mary Jo</h4>
-                        <p class="card-text">Amnah is a professional psychologist.</p>
-                        <a href="#" class="btn btn-outline-secondary">See profile</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/team3.png" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title">Amnah Malik</h4>
-                        <p class="card-text">Amnah is a professional psychologist.</p>
-                        <a href="#" class="btn btn-outline-secondary">See profile</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="my-4">
-    </div>
-
-
-<!--- Two Column Section -->
-
-
-    <!--- Connect -->
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-12">
-                <h2>Connect with Amnah</h2>
-            </div>
-            <div class="col-12 social padding">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </div>
 
     <!--- Footer -->
     <footer>
         <div class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="images/w3newbie.png">
+                    <img src="images/logo-contact.png"/>
                     <hr class="light">
-                    <p>555-555-5555</p>
-                    <p>malikAmnah@gmail.com</p>
-                    <p>100 Street Name</p>
-                    <p>Surrey, BC. 00000</p>
+                    <a href="mailto:bringtolightcounselling@gmail.com">bringtolightcounselling@gmail.com</a><br>
+                    <a href="tel:604-323-6749">604-323-6749</a><br>
+    
+                    <a href="https://www.facebook.com/Bring-to-Light-100194428226341"><i class="fab fa-facebook"></i></a>
+                    <p>Surrey, BC</p>
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
                     <h5>My hours</h5>
                     <hr class="light">
-                    <p>Monday: 9am - 5pm</p>
-                    <p>Saturday: 10am-2pm</p>
-                    <p>Sunday: closed</p>
+                    <p>Tuesday evenings by appointment</p>
+                    <p>Thursday evening by appointment</p>
+                    <p>Sunday: 10am - 4pm</p>
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
-                    <h5>Service Areas</h5>
+                    <h5>Services</h5>
                     <hr class="light">
-                    <p>Surrey, BC. 00000</p>
-                    <p>Surrey, BC. 00000</p>
-                    <p>Surrey, BC. 00000</p>
-                    <p>Surrey, BC. 00000</p>
+                    <p>Cost:</p>
+                    <p>Individual: $100</p>
+                    <p>Couples: $150</p>
                 </div>
                 <div class="col-12">
                     <hr class="light-100">
-                    <h5>&copy; amnah.com</h5>
+                    <h5>&copy; bringtolight.ca</h5>
                 </div>
             </div>
         </div>
@@ -228,10 +157,3 @@
 
 </body>
 </html>
-
-
-
-
-<!-- View in Browser: Drew's #1 Trending YouTube Tutorial -->
-
-<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
