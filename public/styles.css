@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    font-family: normal avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+/* Background image and box section*/
+.tree-parallax {
+    background-image: url('images/tree.jpg');
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-box {
+    bottom: 0;
+    width: 800px;
+    padding: 3rem;
+    background-color:var(--white);
+    color: var(--primary);
+}
+
+.intro-box h5 {
+    font-weight: lighter;
+    text-align: center;
+    color: var(--gray-dark);
+}
+
+.intro-box .heading {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.intro-box .heading h4 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.intro-box .heading p {
+    font-size: 1.2rem;
+    margin: 1rem 0 0 1rem;
+}
+/* Card Section */
+
+.card {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.card-title {
+    white-space: nowrap;
+    color: var(--primary);
+}
+
+
+/* Jumbotrong About Section */
+
+.about-section {
+    background-image: url('images/sea.jpg');
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-section div {
+    max-width: 40rem;
+    margin: auto;
+}
+
+.about-section h1 {
+    padding: 2rem 0;
+}
+
+
+/* Button */
+
+.btn {
+    border-radius: 0;
+    padding: 1rem 3rem;
+}
+
+/* Contact Section */
+
+.contact {
+    background-color: #0C3C60;
+    color: #fff;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+.contact span {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+/* Form Section*/
+
+.form-first-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0C3C60;
+    padding-top: 4rem;
+}
+
+.form-second-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.form-third-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-third-section textarea {
+    width: 51rem;
+}
+
+.form-third-section button {
+    background-color: #fff;
+    color: #0C3C60;
+    margin-top: 2rem;
+    width: 10rem;
+   
+}
+
+.form-third-section button:hover {
+    color: #fff;
+    background-color: #0C3C60;
+    border-color: #fff;
+
+}
+
+.form-label {
+    color: #fff;
+    display: block;
+    width: 5rem;
+}
+
+.form-control {
+    border-color: #fff;
+    width: 30rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #072136;
+    color: #d5d5d5;
+    padding: 4rem;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    padding-top: 2rem;
+}
+
+.contact-padding {
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 16px;
+}
+
+.logo {
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.fa-facebook-f {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.fa-twitter {
+    color: #fff;
+}
+
+#footer-menu-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 2.2rem;
+}
+
+#footer-menu-flex a {
+    font-size: 16px;
+}
+
+
+#socials-align {
+    text-align: center;
+}
+
+#copyright {
+   display: flex;
+   justify-content: flex-end;
+   width: 62%;
+   padding-top: 5rem;
+}
+
+#copyright h5 {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+/*---Media Queries --*/
+
+@media (max-width: 768px) {
+
+    /* Intro box section */
+    .intro-box {
+        width: 320px;
+    }
+
+    /* Card Section */
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-title {
+        white-space: normal;
+    }
+
+    /* Jumbotrong About Section */
+    .jumbotron-padding {
+        padding: 0;
+    }
+
+    /* Client section */
+    .container-clients {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Form section */
+
+    .form-first-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-second-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-third-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-third-section textarea {
+        width: 10rem;
+    }
+
+    .form-label {
+        padding-top: 2rem;
+    }
+    .form-control {
+        width: 10rem;
+    }
+
+    /* Footer section */
+    .contact-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .logo {
+        margin-left: -3rem;
+        align-self: flex-end;
+    }
+
+    #contact-alignment {
+        text-align: center;
+    }
+
+    #footer-menu-flex {
+        padding-bottom: 2rem;
+    }
+}
