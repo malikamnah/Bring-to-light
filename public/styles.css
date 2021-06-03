@@ -4,6 +4,11 @@ html, body {
     font-family: normal avenir-lt-w01_35-light1475496,sans-serif;
 }
 
+/* Nav */
+.nav-link {
+    line-height: 1.5rem;
+}
+
 /* Background image and box section*/
 .tree-parallax {
     background-image: url('images/tree.jpg');
@@ -59,12 +64,19 @@ html, body {
 /* Jumbotrong About Section */
 
 .about-section {
+    display: flex;
+    flex-direction: row-reverse;
     background-image: url('images/sea.jpg');
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about-section img {
+    width: 65%;
+    margin-top: -6rem;
 }
 
 .about-section div {
@@ -75,7 +87,6 @@ html, body {
 .about-section h1 {
     padding: 2rem 0;
 }
-
 
 /* Button */
 
@@ -207,8 +218,12 @@ footer p {
 
 #footer-menu-flex a {
     font-size: 16px;
+    color: rgba(255,255,255,.5);
 }
 
+#footer-menu-flex a:hover {
+    color: #fff;
+}
 
 #socials-align {
     text-align: center;
@@ -231,6 +246,11 @@ footer p {
 
 @media (max-width: 768px) {
 
+    /* Navbar */
+    .navbar {
+        position: unset;
+    }
+
     /* Intro box section */
     .intro-box {
         width: 320px;
@@ -251,10 +271,17 @@ footer p {
         padding: 0;
     }
 
-    /* Client section */
-    .container-clients {
+    .about-section {
         flex-direction: column;
-        align-items: center;
+    }
+
+    .about-section img {
+        margin-top: 0;
+    }
+
+    /* Client section */
+    .row {
+        flex-direction: column;
     }
 
     /* Form section */
@@ -294,8 +321,7 @@ footer p {
     }
 
     .logo {
-        margin-left: -3rem;
-        align-self: flex-end;
+        align-self: center;
     }
 
     #contact-alignment {
